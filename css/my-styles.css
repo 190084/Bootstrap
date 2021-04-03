@@ -1,35 +1,51 @@
- h1 { 
+		main { 
+			color:green;
+			}
+		nav { 
+		font-size: 30px; 
+		color: green;
+		background-color: #EED10E;
+		font-weight: 700;
+		font-style: normal;
+}
+		h1 { 
 			color: green; 
+			text-align: center;
 			}
 		h2 { 
 			text-decoration: underline; 
 			font-size: 20px; 
 			}
+		h5{ 
+			font-weight: 700;
+			font-style: normal;
+			color: black;
+			background: white;
+			opacity: 0.6;
+}
 		p {
 			color: green;
 			font-style: italic; 
 			font-family: 'Xanh Mono', monospace;
+			align-content: center;
+			text-align: center
 			}
 		img {
 			border-radius: 8px;
   			display: block;
  			margin-left: auto;
   			margin-right: auto;
-                        max-width: 400px;
-                        max-height: 250px;
+            max-width: 400px;
+            max-height: 250px;
 			}
 		body {
-			background-image: url(../images/IMG_0220.JPG);
-			background-repeat: no-repeat;
- 			background-attachment: fixed;
-  			background-size: 100% 100%;
 			}
 		header {
 			color: green;
-			background: pink;
+			background: #EED10E;
 			font-style: italic; 
 			font-family: 'Xanh Mono', monospace;
-                        width: 100%;
+            width: 100%;
 			text-align: center;
 			}
 		#my-id { 
@@ -48,12 +64,21 @@
 			width: 40px;
 			height: 25px;
 			}
+		footer {
+			position: fixed;
+ 			left: 0;
+  			bottom: 0;
+  			width: 100%;
+ 			background-color: #EED10E;
+  			color: green;
+  			text-align: center
+			}
 		.footer {
   			position: fixed;
  			left: 0;
   			bottom: 0;
   			width: 100%;
- 			background-color: pink;
+ 			background-color: #EED10E;
   			color: green;
   			text-align: center;
 			}
@@ -62,7 +87,7 @@
 			margin: 10px;
 			}
 		.container {
-			background: pink; 
+			background: #EED10E; 
 			padding: 20px; 
 			border: 25px solid green;
 			}
