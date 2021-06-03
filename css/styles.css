@@ -66,6 +66,11 @@
 			width: 40px;
 			height: 25px;
 			}
+		.img-fluid {
+			align-content: center;
+			width: auto;
+			height: auto;
+			} 
 		footer {
 			position: fixed;
  			left: 0;
